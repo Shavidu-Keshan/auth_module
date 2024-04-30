@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     TODO list:
     Step 1: create the main layout of the app( only the UI)
     Step 2:login to your firebase console
+    step 3:create new firebase project
 
  */
 
