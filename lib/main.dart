@@ -101,6 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
     //create the textfield controller
     TextEditingController _emailController = TextEditingController();
     TextEditingController _passwordcontroller = TextEditingController();
+
     return Padding(
       padding:
           const EdgeInsets.all(16.0), // Changed to a single value for all sides
@@ -111,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
           const Text(
             "FoodMarket",
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.green,
               fontSize: 28.0,
               fontWeight: FontWeight.bold,
             ),
@@ -119,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
           const Text(
             "Login to FoodMarket",
             style: TextStyle(
-                color: Colors.black,
+                color: Colors.grey,
                 fontSize: 44.0,
                 fontWeight: FontWeight.bold),
           ),
